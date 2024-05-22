@@ -27,7 +27,11 @@ function App() {
             </div>
           ))}
         </div>
-        <div id="outputString">{outputString}</div>
+        <h1>Output String</h1>
+        <div id="outputString">
+          {" "}
+          {outputString ? outputString : "Please click first!"}
+        </div>
       </div>
     </>
   );
